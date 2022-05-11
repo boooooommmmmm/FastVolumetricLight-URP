@@ -1,0 +1,530 @@
+Base path: 'D:/UnityEditor/2022.2.0a12/Editor/Data', plugins path 'D:/UnityEditor/2022.2.0a12/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(73): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(79): implicit truncation of vector type
+ ok=1 outsize=1310
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(73): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(79): implicit truncation of vector type
+ ok=1 outsize=1362
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(73): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(79): implicit truncation of vector type
+ ok=1 outsize=418
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(73): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(79): implicit truncation of vector type
+ ok=1 outsize=1262
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(73): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(79): implicit truncation of vector type
+ ok=1 outsize=2406
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(73): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(79): implicit truncation of vector type
+ ok=1 outsize=2442
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(73): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(79): implicit truncation of vector type
+ ok=1 outsize=1254
+
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(73): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(79): implicit truncation of vector type
+ ok=1 outsize=2194
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(63): implicit truncation of vector type
+  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(65): invalid subscript 'localCamera'
+ ok=0 outsize=0
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(75): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(81): implicit truncation of vector type
+ ok=1 outsize=2558
+
+
+
+
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(75): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(81): implicit truncation of vector type
+ ok=1 outsize=1118
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(75): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(81): implicit truncation of vector type
+ ok=1 outsize=1154
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(82): implicit truncation of vector type
+ ok=1 outsize=2558
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(82): implicit truncation of vector type
+ ok=1 outsize=2594
+
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(68): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(84): implicit truncation of vector type
+ ok=1 outsize=2578
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(68): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(77): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(84): implicit truncation of vector type
+ ok=1 outsize=2526
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(84): implicit truncation of vector type
+ ok=1 outsize=1118
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(82): implicit truncation of vector type
+ ok=1 outsize=1154
+
+
+
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToHClip': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(44): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(56): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(82): implicit truncation of vector type
+ ok=1 outsize=1126
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=INSTANCING_ON dKW=UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(42): variable 'o' used without having been completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(58): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(84): implicit truncation of vector type
+ ok=0 outsize=0
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(58): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(84): implicit truncation of vector type
+ ok=1 outsize=1490
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(58): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(84): implicit truncation of vector type
+ ok=1 outsize=1054
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(58): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(84): implicit truncation of vector type
+ ok=1 outsize=1490
+
+
+
+
+
+
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=26  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(48): 'TransformWorldToObject': no matching 0 parameter function
+ ok=0 outsize=0
+
+
+Cmd: compileSnippet
+  insize=523 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW= dKW=INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(57): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(80): implicit truncation of vector type
+ ok=1 outsize=1246
+
+
+
+
+
+Cmd: compileSnippet
+  insize=643 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_REFLECTIONTYPE_REFLECTIONCUBE dKW=_REFLECTIONTYPE_PLANARREFLECTION _REFLECTIONTYPE_OFF INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=382
+
+
+
+Cmd: compileSnippet
+  insize=617 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=1246
+
+Cmd: compileSnippet
+  insize=618 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_BOX dKW=_LIGHTSHAPE_SPHERE _LIGHTSHAPE_ROUNDED_BOX INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=1246
+
+
+Cmd: compileSnippet
+  insize=1004 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_ROUNDEDBOX INSTANCING_ON dKW=_LIGHTSHAPE_SPHERE _LIGHTSHAPE_BOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=2081 mask=6 start=28  error: 2 plat 4 at (34): unrecognized identifier 'Capsule'
+ ok=0 outsize=0
+
+Cmd: compileSnippet
+  insize=1023 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 2 plat 4 at (34): unrecognized identifier 'Capsule'
+ ok=0 outsize=0
+
+Cmd: compileSnippet
+  insize=1186 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 2 plat 4 at (34): unrecognized identifier 'Triangle'
+ ok=0 outsize=0
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_ROUNDEDBOX dKW=_LIGHTSHAPE_SPHERE _LIGHTSHAPE_BOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=382
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_PLANE INSTANCING_ON dKW=_LIGHTSHAPE_SPHERE _LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=1282
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_DISK INSTANCING_ON dKW=_LIGHTSHAPE_SPHERE _LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=1282
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE INSTANCING_ON dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=1282
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=1246
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=1246
+
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE INSTANCING_ON dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=2081 mask=6 start=28  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(8): undeclared identifier 'RaySphereIntersection'
+ ok=0 outsize=0
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(67): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(90): implicit truncation of vector type
+ ok=1 outsize=1246
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(57): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(80): implicit truncation of vector type
+ ok=1 outsize=1246
+
+
+
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE INSTANCING_ON dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(35): Output value 'vert' is not completely initialized
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(58): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(81): implicit truncation of vector type
+ ok=1 outsize=1282
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(27): unrecognized identifier 'vec2'
+ ok=0 outsize=0
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(27): unrecognized identifier 'flaot2'
+ ok=0 outsize=0
+
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=28  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(48): 'RaySphereIntersection': no matching 4 parameter function
+ ok=0 outsize=0
+
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(32): unrecognized identifier 'm'
+  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(32): unrecognized identifier 'vec3'
+ ok=0 outsize=0
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=33 mask=6 start=28  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(32): undeclared identifier 'rd'
+ ok=0 outsize=0
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE INSTANCING_ON dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=28  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(40): 'sign': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sign(float|half|double|min10float|min16float|int|uint|min12int|min16int|min16uint)
+  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(40): undeclared identifier 'rd'
+ ok=0 outsize=0
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT INSTANCING_ON UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=33 mask=6 start=28  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(41): 'sign': no matching 1 parameter intrinsic function; Possible intrinsic functions are: sign(float|half|double|min10float|min16float|int|uint|min12int|min16int|min16uint)
+  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLightIntersection.hlsl(41): undeclared identifier 'rd'
+ ok=0 outsize=0
+
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE INSTANCING_ON dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=2081 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(58): 'LinearEyeDepth': implicit truncation of vector type
+  error: 2 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(68): undeclared identifier 'RaySphereIntersection'
+ ok=0 outsize=0
+
+
+
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE INSTANCING_ON dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=2081 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(58): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(81): implicit truncation of vector type
+ ok=1 outsize=2662
+
+
+Cmd: compileSnippet
+  insize=914 file=Assets/VolumetricTracer/Shaders/FVL/FastVolumetricLight pass=<Unnamed Pass 0> ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=_LIGHTSHAPE_SPHERE INSTANCING_ON dKW=_LIGHTSHAPE_BOX _LIGHTSHAPE_ROUNDEDBOX _LIGHTSHAPE_PLANE _LIGHTSHAPE_DISK _LIGHTSHAPE_HEXAGONALPRISM _LIGHTSHAPE_CAPSULE _LIGHTSHAPE_CAPPEDCYLINDER _LIGHTSHAPE_CYLINDER _LIGHTSHAPE_CAPPEDCONE _LIGHTSHAPE_ROUNDEDCONE _LIGHTSHAPE_ELLIPSOID _LIGHTSHAPE_TRIANGLE _LIGHTSHAPE_ELLIPSE _LIGHTSHAPE_TORUS _LIGHTSHAPE_SPHERE4 _LIGHTSHAPE_GOURSAT UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Fragment platform=d3d11 reqs=2081 mask=6 start=28  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(39): 'TransformObjectToWorld': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(41): implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(58): 'LinearEyeDepth': implicit truncation of vector type
+  error: 1 plat 4 at Assets/VolumetricTracer/Shaders/FastVolumetricLight.hlsl(81): implicit truncation of vector type
+ ok=1 outsize=2662
+
+
