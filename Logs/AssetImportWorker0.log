@@ -15,7 +15,7 @@ E:/Github/FastVolumetricLight-URP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56405
+59340
 Successfully changed project path to: E:/Github/FastVolumetricLight-URP
 E:/Github/FastVolumetricLight-URP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -61,42 +61,42 @@ Initialize mono
 Mono path[0] = 'D:/UnityEditor/2022.2.0a12/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityEditor/2022.2.0a12/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityEditor/2022.2.0a12/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityEditor/2022.2.0a12/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002777 seconds.
-Refreshing native plugins compatible for Editor in 86.17 ms, found 3 plugins.
-- Loaded All Assemblies, in  0.371 seconds
+Registered in 0.003607 seconds.
+Refreshing native plugins compatible for Editor in 84.39 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.357 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.247 seconds
+- Finished resetting the current domain, in  0.241 seconds
 Domain Reload Profiling:
-	ReloadAssembly (256ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (246ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (68ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
-				TypeCache.Initialize (112ms)
-					TypeCache.ScanAssembly (111ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (108ms)
+				TypeCache.Initialize (107ms)
+					TypeCache.ScanAssembly (106ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (181ms)
+			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (123ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -104,186 +104,52 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Registering precompiled user dll's ...
-Registered in 0.000828 seconds.
+Registered in 0.000774 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-- Loaded All Assemblies, in  0.672 seconds
-Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.585 seconds
+- Finished resetting the current domain, in  0.570 seconds
 Domain Reload Profiling:
-	ReloadAssembly (212ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (188ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		LoadAllAssembliesAndSetupDomain (459ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (20ms)
+		LoadAllAssembliesAndSetupDomain (432ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (422ms)
-				TypeCache.Initialize (252ms)
-					TypeCache.ScanAssembly (248ms)
-				ResolveRequiredComponents (16ms)
+			SetupTypeCache (395ms)
+				TypeCache.Initialize (234ms)
+					TypeCache.ScanAssembly (230ms)
+				ResolveRequiredComponents (12ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (430ms)
+			SetupLoadedEditorAssemblies (415ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5131 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (350.4 KB). Loaded Objects now: 5595.
-Memory consumption went from 0.77 GB to 0.77 GB.
-Total: 4.326600 ms (FindLiveObjects: 0.448100 ms CreateObjectMapping: 0.506100 ms MarkObjects: 3.237100 ms  DeleteObjects: 0.133900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 36476.394486 seconds.
-  path: Assets/VolumetricTracer/Shaders/FastVolumetricLight.shader
-  artifactKey: Guid(f2e9ec8e7884a1a4bba7ee2a0d96d7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/VolumetricTracer/Shaders/FastVolumetricLight.shader using Guid(f2e9ec8e7884a1a4bba7ee2a0d96d7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee2065586744e71484293dd3f5af751') in 0.045068 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 425.976202 seconds.
-  path: Assets/TutorialInfo/Icons/URP.png
-  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5450a7da407fbde40024e852e34b241c') in 0.049345 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000887 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-- Loaded All Assemblies, in  0.673 seconds
-Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.065 seconds
-Domain Reload Profiling:
-	ReloadAssembly (208ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		LoadAllAssembliesAndSetupDomain (464ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (429ms)
-				TypeCache.Initialize (262ms)
-					TypeCache.ScanAssembly (257ms)
-				ResolveRequiredComponents (10ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (406ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4981 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (309.9 KB). Loaded Objects now: 5602.
-Memory consumption went from 0.74 GB to 0.74 GB.
-Total: 3.590100 ms (FindLiveObjects: 0.468100 ms CreateObjectMapping: 0.446800 ms MarkObjects: 2.599100 ms  DeleteObjects: 0.075200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000809 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-- Loaded All Assemblies, in  0.682 seconds
-Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.064 seconds
-Domain Reload Profiling:
-	ReloadAssembly (205ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		LoadAllAssembliesAndSetupDomain (476ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (442ms)
-				TypeCache.Initialize (264ms)
-					TypeCache.ScanAssembly (257ms)
-				ResolveRequiredComponents (10ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (418ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4980 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (309.9 KB). Loaded Objects now: 5606.
-Memory consumption went from 0.74 GB to 0.74 GB.
-Total: 3.201000 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.431900 ms MarkObjects: 2.295300 ms  DeleteObjects: 0.067000 ms)
+Unloading 5131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (350.5 KB). Loaded Objects now: 5595.
+Memory consumption went from 0.77 GB to 0.77 GB.
+Total: 3.493700 ms (FindLiveObjects: 0.426300 ms CreateObjectMapping: 0.465200 ms MarkObjects: 2.459800 ms  DeleteObjects: 0.141700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -296,55 +162,477 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 121188.306909 seconds.
+  path: Assets/VolumetricTracer/Texture/BlueNoise16/LDR_LLL1_0.png
+  artifactKey: Guid(28d367e165efae74e93f7d47c59222fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/VolumetricTracer/Texture/BlueNoise16/LDR_LLL1_0.png using Guid(28d367e165efae74e93f7d47c59222fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261fb4426bad050fdc5b4b9ae18d1478') in 0.099102 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.494038 seconds.
+  path: Assets/VolumetricTracer/Texture/BlueNoise16/LDR_LLL1_0.png
+  artifactKey: Guid(28d367e165efae74e93f7d47c59222fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VolumetricTracer/Texture/BlueNoise16/LDR_LLL1_0.png using Guid(28d367e165efae74e93f7d47c59222fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca1638ee38dec35fc3353593be3de99') in 0.008360 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.635835 seconds.
+  path: Assets/VolumetricTracer/Texture/BlueNoise16/LDR_LLL1_0.png
+  artifactKey: Guid(28d367e165efae74e93f7d47c59222fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/VolumetricTracer/Texture/BlueNoise16/LDR_LLL1_0.png using Guid(28d367e165efae74e93f7d47c59222fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2cf4d7a3453e34d3c0dab7a33ebcae') in 0.008997 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 417.006208 seconds.
+  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset
+  artifactKey: Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset using Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d1be71fea0fc744c467fd21ac5eea6') in 0.008887 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7263.357918 seconds.
+  path: Assets/VolumetricTracer/Shaders/VolumetricTracer.shader
+  artifactKey: Guid(f5e9bc712d296514884b338cbde923c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 2
+Start importing Assets/VolumetricTracer/Shaders/VolumetricTracer.shader using Guid(f5e9bc712d296514884b338cbde923c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4fbcaf9cf10e75a4bdd79d25350334') in 0.007831 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.671468 seconds.
+  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/SharedAssets/Settings/SamplesForwardRenderer.asset
+  artifactKey: Guid(73aaea17d5ba84b43bb1279840f57989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/SharedAssets/Settings/SamplesForwardRenderer.asset using Guid(73aaea17d5ba84b43bb1279840f57989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4946683f7ee5443646f49f646843e5') in 0.008064 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.810596 seconds.
+  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/SharedAssets/Settings/Global Volume Profile.asset
+  artifactKey: Guid(ff8527d309d1d49598d1b259a43975d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/SharedAssets/Settings/Global Volume Profile.asset using Guid(ff8527d309d1d49598d1b259a43975d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76c7691b9a733794ad45dbfc2cc7eae') in 0.010976 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 9.310723 seconds.
+  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/SharedAssets/Scripts/FirstPersonController.cs
+  artifactKey: Guid(94f9f55b5897449c29f5189f47cad4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/SharedAssets/Scripts/FirstPersonController.cs using Guid(94f9f55b5897449c29f5189f47cad4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5923d2f1fec9ac1a5d85ca0ea93366') in 0.035129 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000826 seconds.
+Registered in 0.000860 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+- Loaded All Assemblies, in  0.645 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (195ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		LoadAllAssembliesAndSetupDomain (449ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (419ms)
+				TypeCache.Initialize (238ms)
+					TypeCache.ScanAssembly (233ms)
+				ResolveRequiredComponents (13ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4983 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (321.0 KB). Loaded Objects now: 5553.
+Memory consumption went from 0.75 GB to 0.75 GB.
+Total: 3.683000 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.363500 ms MarkObjects: 2.417200 ms  DeleteObjects: 0.547000 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: ff2869b2ce7c09b51d8bc2926aab598d -> 886a89792de1e9d3697bddabf731a298
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-material: 1323b11ab5f8e84b9c4553e3cd30b8d1 -> 00000000000000000f00000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000813 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.024 seconds
+Domain Reload Profiling:
+	ReloadAssembly (198ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		LoadAllAssembliesAndSetupDomain (451ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (418ms)
+				TypeCache.Initialize (252ms)
+					TypeCache.ScanAssembly (247ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4980 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (317.9 KB). Loaded Objects now: 5555.
+Memory consumption went from 0.75 GB to 0.75 GB.
+Total: 3.122100 ms (FindLiveObjects: 0.375000 ms CreateObjectMapping: 0.382400 ms MarkObjects: 2.295000 ms  DeleteObjects: 0.069300 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: ff2869b2ce7c09b51d8bc2926aab598d -> 886a89792de1e9d3697bddabf731a298
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-material: 1323b11ab5f8e84b9c4553e3cd30b8d1 -> 00000000000000000f00000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000838 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 - Loaded All Assemblies, in  0.628 seconds
-Refreshing native plugins compatible for Editor in 7.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.129 seconds
+- Finished resetting the current domain, in  1.021 seconds
 Domain Reload Profiling:
-	ReloadAssembly (186ms)
+	ReloadAssembly (188ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		LoadAllAssembliesAndSetupDomain (440ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+				TypeCache.Initialize (244ms)
+					TypeCache.ScanAssembly (239ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4979 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (317.9 KB). Loaded Objects now: 5557.
+Memory consumption went from 0.75 GB to 0.75 GB.
+Total: 3.357200 ms (FindLiveObjects: 0.471400 ms CreateObjectMapping: 0.564700 ms MarkObjects: 2.258100 ms  DeleteObjects: 0.062300 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: ff2869b2ce7c09b51d8bc2926aab598d -> 886a89792de1e9d3697bddabf731a298
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-material: 1323b11ab5f8e84b9c4553e3cd30b8d1 -> 00000000000000000f00000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 129.379439 seconds.
+  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/Shaders/PointLight_Graph.shadergraph
+  artifactKey: Guid(ec36f8e2ccdaf497190c1d96853d1551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/Shaders/PointLight_Graph.shadergraph using Guid(ec36f8e2ccdaf497190c1d96853d1551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <06e7e22ef9ec4cf381214ccae9b15452>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+ -> (artifact id: '2d80b0aa75f2f877697ee5fb2e9764df') in 0.067930 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.739523 seconds.
+  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/Shaders/SpotLightProxy_Graph.shadergraph
+  artifactKey: Guid(1d4241f2d72964e1187486469baf9cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/Shaders/SpotLightProxy_Graph.shadergraph using Guid(1d4241f2d72964e1187486469baf9cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <06e7e22ef9ec4cf381214ccae9b15452>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, List`1, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.MaterialEditor:DoRenderPreview(PreviewRenderUtility, Boolean)
+UnityEditor.MaterialEditor:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+ -> (artifact id: '1b0ae6ab3148c348279db9270d55a6ad') in 0.015112 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000823 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+- Loaded All Assemblies, in  0.629 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (195ms)
 		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (38ms)
-		LoadAllAssembliesAndSetupDomain (442ms)
-			LoadAssemblies (88ms)
+		LoadAllAssembliesAndSetupDomain (432ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
-				TypeCache.Initialize (234ms)
-					TypeCache.ScanAssembly (229ms)
-				ResolveRequiredComponents (12ms)
+			SetupTypeCache (399ms)
+				TypeCache.Initialize (240ms)
+					TypeCache.ScanAssembly (234ms)
+				ResolveRequiredComponents (10ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (424ms)
+			SetupLoadedEditorAssemblies (374ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (78ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (6ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4980 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (309.8 KB). Loaded Objects now: 5610.
+Unloading 4977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (310.6 KB). Loaded Objects now: 5599.
 Memory consumption went from 0.74 GB to 0.74 GB.
-Total: 3.235000 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.419100 ms MarkObjects: 2.383800 ms  DeleteObjects: 0.064400 ms)
+Total: 3.330800 ms (FindLiveObjects: 0.383100 ms CreateObjectMapping: 0.423800 ms MarkObjects: 2.452700 ms  DeleteObjects: 0.070700 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: ff2869b2ce7c09b51d8bc2926aab598d -> 886a89792de1e9d3697bddabf731a298
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -354,43 +642,210 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-material: 1323b11ab5f8e84b9c4553e3cd30b8d1 -> 00000000000000000f00000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 3529.948183 seconds.
-  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset
-  artifactKey: Guid(7cff376ab52df4ec2851903e4b87d286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 30.506372 seconds.
+  path: Assets/Decals/Shaders.cs
+  artifactKey: Guid(f88f9acd0aded664a8fddc8100765d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset using Guid(7cff376ab52df4ec2851903e4b87d286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3537ca59805a2bd7377a63667c03b723') in 0.028117 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Decals/Shaders.cs using Guid(f88f9acd0aded664a8fddc8100765d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a151c7ff3d04786972c60124a27683') in 0.006116 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000817 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+- Loaded All Assemblies, in  0.634 seconds
+Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (189ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		LoadAllAssembliesAndSetupDomain (444ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (410ms)
+				TypeCache.Initialize (243ms)
+					TypeCache.ScanAssembly (239ms)
+				ResolveRequiredComponents (11ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (310.6 KB). Loaded Objects now: 5602.
+Memory consumption went from 0.74 GB to 0.74 GB.
+Total: 3.303200 ms (FindLiveObjects: 0.367000 ms CreateObjectMapping: 0.379200 ms MarkObjects: 2.482700 ms  DeleteObjects: 0.073200 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: ff2869b2ce7c09b51d8bc2926aab598d -> 886a89792de1e9d3697bddabf731a298
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-material: 1323b11ab5f8e84b9c4553e3cd30b8d1 -> 00000000000000000f00000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 921.521457 seconds.
-  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset
-  artifactKey: Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 3
-Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset using Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05328594801d33f46d1297f0edd08b53') in 0.005460 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 9.533590 seconds.
-  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset
-  artifactKey: Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset using Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cab0f7dc08867695746d782537dfca') in 0.005670 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 6.369303 seconds.
-  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset
-  artifactKey: Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 1
-Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset using Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3b2cffaba5a82a8670709a950ba086') in 0.005772 seconds 
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 67.328907 seconds.
-  path: Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset
-  artifactKey: Guid(7cff376ab52df4ec2851903e4b87d286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 11.158166 seconds.
+  path: Assets/Decals/Shaders
+  artifactKey: Guid(63175a71321624f428030a4bca023bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Samples/Universal RP/14.0.2/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset using Guid(7cff376ab52df4ec2851903e4b87d286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151c96ceeba3368ef2746e112765d288') in 0.006029 seconds 
-Number of asset objects unloaded after import = 3
+Start importing Assets/Decals/Shaders using Guid(63175a71321624f428030a4bca023bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de58a8d9289eab9f7800a095195871cb') in 0.003847 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.610248 seconds.
+  path: Assets/Decals/Materials
+  artifactKey: Guid(f49c5854f6c75054fb9924c03b084751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Decals/Materials using Guid(f49c5854f6c75054fb9924c03b084751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c75c51661dc68cb7c4f00e947e177c') in 0.005690 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000837 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+- Loaded All Assemblies, in  0.598 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (187ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		LoadAllAssembliesAndSetupDomain (411ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+				TypeCache.Initialize (225ms)
+					TypeCache.ScanAssembly (220ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4975 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (310.6 KB). Loaded Objects now: 5604.
+Memory consumption went from 0.74 GB to 0.74 GB.
+Total: 3.138300 ms (FindLiveObjects: 0.366300 ms CreateObjectMapping: 0.402200 ms MarkObjects: 2.298900 ms  DeleteObjects: 0.070300 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1421 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x0004c] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:637 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00018] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:809 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:715 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00001] in E:\Github\FastVolumetricLight-URP\Library\PackageCache\com.unity.render-pipelines.universal@14.0.2\Runtime\Data\UniversalRenderPipelineAsset.cs:1344 
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@14.0.2/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 637)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: ff2869b2ce7c09b51d8bc2926aab598d -> 886a89792de1e9d3697bddabf731a298
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:srp/default-material: 1323b11ab5f8e84b9c4553e3cd30b8d1 -> 00000000000000000f00000000000000
