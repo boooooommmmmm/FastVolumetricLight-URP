@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VolumetricTracer_Cylinder
+  m_Name: VolumetricTracer_Sphere
   m_Shader: {fileID: 4800000, guid: f2e9ec8e7884a1a4bba7ee2a0d96d7d9, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _LIGHTSHAPE_ELLIPSOID
+  - _LIGHTSHAPE_SPHERE
   m_InvalidKeywords:
   - _LIGHTSHAPE_REFLECTIONCUBE
   - _REFLECTIONTYPE_REFLECTIONCUBE
@@ -85,12 +85,12 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Intensity: 0.05
-    - _LightShape: 11
+    - _Intensity: 1.15
+    - _LightShape: 0
     - _Metallic: 0
     - _Mode: 0
     - _NoiseSpeed: 1
-    - _NoiseStrength: 0.205
+    - _NoiseStrength: 0.033
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ReflectionType: 0
@@ -101,9 +101,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 127.87475, g: 110.46771, b: 33.475063, a: 1}
+    - _Color: {r: 1.2529184, g: 1.0823638, b: 0.32798907, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _NoiseDirection: {r: 3, g: 1, b: 0, a: 0}
+    - _NoiseDirection: {r: 2, g: 1, b: 0, a: 0}
     - _NoiseSpeed: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

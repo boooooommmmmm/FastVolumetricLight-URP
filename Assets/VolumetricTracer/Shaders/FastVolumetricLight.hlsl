@@ -30,6 +30,7 @@ SAMPLER(sampler_CameraDepthTexture);
 
 TEXTURE2D_X_HALF(_NoiseTex);
 SAMPLER(sampler_LinearRepeat);
+float4 _NoiseTex_ST;
 
 TEXTURE2D_X_HALF(_GradientTex);
 SAMPLER(sampler_GradientTex);
@@ -78,7 +79,12 @@ half4 frag(v2f i) : SV_Target
     if (intersection.x > 0 || intersection.y > 0)
     {
         //noise texture is a single channel texture
-        half noise = SAMPLE_TEXTURE2D_X(_NoiseTex, sampler_LinearRepeat, i.uv + _NoiseDirection.xy * _Time.x).a;
+        float2 noiseUV = i.uv;
+        noiseUV = noiseUV * _NoiseTex_ST.xy + _NoiseTex_ST.zw;
+        float noise1 = SAMPLE_TEXTURE2D_X(_NoiseTex, sampler_LinearRepeat, noiseUV + _NoiseDirection.xy * _Time.x).a;
+        float noise2 = SAMPLE_TEXTURE2D_X(_NoiseTex, sampler_LinearRepeat, noiseUV + _NoiseDirection.xy * _Time.x * 2).a;
+        float noise = noise1 + noise2 * 0.5;
+        // return noise;
 
         intersection.x = max(intersection.x, 0); //camera may inside the volumetric light
 
@@ -86,14 +92,13 @@ half4 frag(v2f i) : SV_Target
         //middle point of two intersection points
         float3 mid = rayOrigin + rayDirection * (intersection.x + intersection.y) * 0.5;
         
-        float alpha = 1 - (length(mid) + noise.x * _NoiseStrength * 0.1) / 0.5;
-        // return (1 - (length(mid) + noise.x) / 0.5);
+        float alpha = 1 - (length(mid) + noise * _NoiseStrength * 0.1) / 0.5;
         // return alpha;
 
         color.rgb = SAMPLE_TEXTURE2D_X(_GradientTex, sampler_GradientTex, float2(alpha, 0.5)) * _Intensity;
         color.a = smoothstep(0, 1, alpha);
 
-        // Scene blending
+        // Scene blending: 
         color.a *= saturate((sceneDistance - length(entry - _WorldSpaceCameraPos)) / _SoftBlend);
     }
 
