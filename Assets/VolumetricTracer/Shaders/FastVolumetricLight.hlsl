@@ -64,8 +64,7 @@ half4 frag(v2f i) : SV_Target
 {
     float2 screenUV = i.screenPos.xy / i.screenPos.w;
     float3 viewDirWS = normalize(i.positionWS - _WorldSpaceCameraPos);
-    float sceneDepth = LinearEyeDepth(
-        SAMPLE_TEXTURE2D_X(_CameraDepthTexture, sampler_CameraDepthTexture, screenUV), _ZBufferParams);
+    float sceneDepth = LinearEyeDepth(SAMPLE_TEXTURE2D_X(_CameraDepthTexture, sampler_CameraDepthTexture, screenUV), _ZBufferParams);
 
     float3 camFwd = UNITY_MATRIX_V[2].xyz; //z基向量
     float sceneDistance = sceneDepth / dot(-viewDirWS, camFwd); //real distance between scene and camera
@@ -78,27 +77,27 @@ half4 frag(v2f i) : SV_Target
 
     if (intersection.x > 0 || intersection.y > 0)
     {
-        //noise texture is a single channel texture
+        //Calculate noise
         float2 noiseUV = i.uv;
         noiseUV = noiseUV * _NoiseTex_ST.xy + _NoiseTex_ST.zw;
         float noise1 = SAMPLE_TEXTURE2D_X(_NoiseTex, sampler_LinearRepeat, noiseUV + _NoiseDirection.xy * _Time.x).a;
         float noise2 = SAMPLE_TEXTURE2D_X(_NoiseTex, sampler_LinearRepeat, noiseUV + _NoiseDirection.xy * _Time.x * 2).a;
         float noise = noise1 + noise2 * 0.5;
-        // return noise;
 
         intersection.x = max(intersection.x, 0); //camera may inside the volumetric light
 
         float3 entry = TransformObjectToWorld(rayOrigin + rayDirection * intersection.x); //Cal entry point
-        //middle point of two intersection points
-        float3 mid = rayOrigin + rayDirection * (intersection.x + intersection.y) * 0.5;
-        
-        float alpha = 1 - (length(mid) + noise * _NoiseStrength * 0.1) / 0.5;
-        // return alpha;
+        float3 mid = rayOrigin + rayDirection * (intersection.x + intersection.y) * 0.5;//middle point of two intersection points(object space)
 
-        color.rgb = SAMPLE_TEXTURE2D_X(_GradientTex, sampler_GradientTex, float2(alpha, 0.5)) * _Intensity;
-        color.a = smoothstep(0, 1, alpha);
+        //Calculate transparency by distance from camera
+        //further from camera, more transparency 
+        float transparency = 1 - (length(mid) + noise * _NoiseStrength * 0.1) / 0.5; 
 
-        // Scene blending: 
+        color.rgb = SAMPLE_TEXTURE2D_X(_GradientTex, sampler_GradientTex, float2(transparency, 0.5)) * _Intensity;
+        color.a = smoothstep(0, 1, transparency);
+
+        //blend transparency by distance
+        //Larger delta depth means ray need transform more distance in light volume, also means less transparency.
         color.a *= saturate((sceneDistance - length(entry - _WorldSpaceCameraPos)) / _SoftBlend);
     }
 

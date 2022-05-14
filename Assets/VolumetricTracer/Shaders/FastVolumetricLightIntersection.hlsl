@@ -26,6 +26,7 @@ float2 SphereIntersection(float3 rayOrigin, float3 rayDirection)
     }
 }
 
+/*
 //Box
 //Keyword: _LIGHTSHAPE_BOX
 float2 BoxIntersection(float3 rayOrigin, float3 rayDirection)
@@ -46,7 +47,9 @@ float2 BoxIntersection(float3 rayOrigin, float3 rayDirection)
 
     return float2(tN, tF);
 }
+*/
 
+/*
 //Capsule
 //Keyword: _LIGHTSHAPE_CAPSULE
 //Use cuboid mesh + Sphere intersect is a better choose
@@ -85,7 +88,9 @@ float CapIntersect(float3 ro, float3 rd)
     }
     return -1.0;
 }
+*/
 
+/*
 //RounedCone
 //Keyword: _LIGHTSHAPE_ROUNDEDCONE
 float4 RoundedConeIntersect(float3 ro, float3 rd)
@@ -137,6 +142,7 @@ float4 RoundedConeIntersect(float3 ro, float3 rd)
     }
     return r;
 }
+*/
 
 //Ellipsoid
 //Keyword: _LIGHTSHAPE_ELLIPSOID
@@ -157,6 +163,7 @@ float2 EllipsoidIntersect(float3 ro, float3 rd)
     return float2(-b - h, -b + h) / a;
 }
 
+/*
 //Sphere4
 //Keyword: _LIGHTSHAPE_SPHERE4
 float Sph4Intersect(float3 ro, float3 rd)
@@ -188,10 +195,12 @@ float Sph4Intersect(float3 ro, float3 rd)
     float r = length(v);
     return -abs(v.y) / sqrt(r + v.x) - c1 / r - k3;
 }
+*/
 
 float4 GetIntersection(float3 rayOrigin, float3 rayDirection)
 {
     float4 result = 0;
+    /*
     #ifdef _LIGHTSHAPE_SPHERE
     result.xy = SphereIntersection(rayOrigin, rayDirection);
     #elif _LIGHTSHAPE_BOX
@@ -204,6 +213,10 @@ float4 GetIntersection(float3 rayOrigin, float3 rayDirection)
     result.xy += EllipsoidIntersect(rayOrigin, rayDirection);
     #elif _LIGHTSHAPE_SPHERE4
     //result.xy += Sph4Intersect(rayOrigin, rayDirection);
+    #endif
+    */
+    #ifdef _LIGHTSHAPE_SPHERE
+    result.xy = SphereIntersection(rayOrigin, rayDirection);
     #endif
 
     return result;

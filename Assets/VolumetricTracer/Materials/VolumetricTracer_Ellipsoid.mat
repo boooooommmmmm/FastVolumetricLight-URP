@@ -12,7 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _LIGHTSHAPE_ELLIPSOID
+  - _LIGHTSHAPE_SPHERE
   m_InvalidKeywords:
   - _LIGHTSHAPE_REFLECTIONCUBE
   - _REFLECTIONTYPE_REFLECTIONCUBE
@@ -86,7 +86,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Intensity: 1
-    - _LightShape: 11
+    - _LightShape: 0
     - _Metallic: 0
     - _Mode: 0
     - _NoiseSpeed: 1
